@@ -9,6 +9,7 @@
  - Once installation completed. Go to the path where 'requirements.txt' present in the folder structure.
  - Run command 'pip install -r requirements.txt'
  - Once required python packages installed.
- - Fill the environment variables in '.env' file with variables: GEMINI_API_KEY, GOOGLE_SEARCH_API_KEY, GOOGLE_CSE_ID
+ - Create '.env' file. And fill the environment variables in '.env' file with variables: GEMINI_API_KEY, GOOGLE_SEARCH_API_KEY, GOOGLE_CSE_ID
  - Run command 'python chronos.py' to run the application.
  - Enter user input and the python program will generate the report.
+
