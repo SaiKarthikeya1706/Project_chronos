@@ -1,6 +1,9 @@
-● Project Title: Project Chronos: The AI Archeologist.
-● Student Name(s) and ID(s) - Naga Sai Karthikeya Maram and SE25UCSE084
+● Project Title: <b>Project Chronos: The AI Archeologist</b>.
+
+● Student Name(s) and ID(s) - <b>Naga Sai Karthikeya Maram</b> and <b>SE25UCSE084</b>.
+
 ● Project Description: Project Chronos is an AI-powered application designed to digitally reconstruct and contextualize fragmented pieces of old internet content — such as forum posts, chat logs, or web archives. Using Google Gemini, it intelligently fills in missing text, interprets outdated slang, and restores linguistic coherence. The system then leverages Google Custom Search to automatically discover relevant articles, definitions, and cultural references that explain the reconstructed content. Finally, it compiles a structured Reconstruction Report containing the original fragment, the AI’s reconstructed version, and contextual sources — helping researchers, historians, and enthusiasts rediscover and understand the cultural fabric of the early digital age.
+
 ● Setup Instructions: 
  - Install python 3.11.4
  - Once installation completed. Go to the path where 'requirements.txt' present in the folder structure.
