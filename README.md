@@ -5,7 +5,7 @@
 
 ## Project Description
 
-Project Chronos is an AI-powered tool that reconstructs fragmented, obscure, or slang-filled text from old internet sources — forum posts, old chat logs, early social media — and provides cultural context for the reconstruction. It uses Google's Gemini API to intelligently fill in missing meaning based on linguistic style and subject matter, then automatically searches the web to surface relevant sources that support the reconstruction. If Gemini has low confidence in a reconstruction, the report says so honestly instead of forcing a guess. The final output is a clean, structured "Reconstruction Report" showing the original fragment, the AI's interpretation, and supporting context links.
+Project Chronos is an AI-powered tool that reconstructs fragmented, obscure, or slang-filled text from old internet sources — forum posts, old chat logs, early social media — and provides cultural context for the reconstruction. It uses Google's Gemini API to intelligently fill in missing meaning based on linguistic style and subject matter, then automatically searches the web to surface relevant sources that support the reconstruction. The final output is a clean, structured "Reconstruction Report" showing the original fragment, the AI's interpretation, and supporting context links.
 
 ## Setup Instructions
 
@@ -21,7 +21,7 @@ pip3 install -r requirements.txt
 ```
 
 ### 3. Set up API keys
-Create a `.env` file in the project root with the following:
+Create a `.env` file in the project root with the following: 
 GEMINI_API_KEY=your_gemini_api_key_here
 
 Get a free Gemini API key from [Google AI Studio](https://aistudio.google.com/apikey).
