@@ -1,15 +1,38 @@
-● Project Title: <b>Project Chronos: The AI Archeologist</b>.
+# Project Chronos: The AI Archeologist
 
-● Student Name(s) and ID(s) - <b>Naga Sai Karthikeya Maram</b> and <b>SE25UCSE084</b>.
+**Student:** Naga Sai Karthikeya M
+**Roll No.:** SE25UCSE084
 
-● Project Description: Project Chronos is an AI-powered application designed to digitally reconstruct and contextualize fragmented pieces of old internet content — such as forum posts, chat logs, or web archives. Using Google Gemini, it intelligently fills in missing text, interprets outdated slang, and restores linguistic coherence. The system then leverages Google Custom Search to automatically discover relevant articles, definitions, and cultural references that explain the reconstructed content. Finally, it compiles a structured Reconstruction Report containing the original fragment, the AI’s reconstructed version, and contextual sources — helping researchers, historians, and enthusiasts rediscover and understand the cultural fabric of the early digital age.
+## Project Description
 
-● Setup Instructions: 
- - Install python 3.11.4
- - Once installation completed. Go to the path where 'requirements.txt' present in the folder structure.
- - Run command 'pip install -r requirements.txt'
- - Once required python packages installed.
- - Create '.env' file. And fill the environment variables in '.env' file with variables: GEMINI_API_KEY, GOOGLE_SEARCH_API_KEY, GOOGLE_CSE_ID
- - Run command 'python chronos.py' to run the application.
- - Enter user input and the python program will generate the report.
+Project Chronos is an AI-powered tool that reconstructs fragmented, obscure, or slang-filled text from old internet sources — forum posts, old chat logs, early social media — and provides cultural context for the reconstruction. It uses Google's Gemini API to intelligently fill in missing meaning based on linguistic style and subject matter, then automatically searches the web to surface relevant sources that support the reconstruction. If Gemini has low confidence in a reconstruction, the report says so honestly instead of forcing a guess. The final output is a clean, structured "Reconstruction Report" showing the original fragment, the AI's interpretation, and supporting context links.
 
+## Setup Instructions
+
+### 1. Clone the repository
+```bash
+git clone <your-repo-url>
+cd Project_chronos
+```
+
+### 2. Install dependencies
+```bash
+pip3 install -r requirements.txt
+```
+
+### 3. Set up API keys
+Create a `.env` file in the project root with the following:
+GEMINI_API_KEY=your_gemini_api_key_here
+
+Get a free Gemini API key from [Google AI Studio](https://aistudio.google.com/apikey).
+
+> **Note:** By default, this project uses DuckDuckGo's free search endpoint for contextual sources, which requires no API key. To use Google Custom Search API instead, add `GOOGLE_SEARCH_API_KEY` and `GOOGLE_CSE_ID` to `.env`, and change `SEARCH_BACKEND = "duckduckgo"` to `SEARCH_BACKEND = "google"` at the top of `chronos.py`.
+
+## Usage
+
+Run the program from the terminal:
+```bash
+python3 chronos.py
+```
+
+You'll be prompted to enter a fragment of old or obscure internet text:
